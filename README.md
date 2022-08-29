@@ -27,6 +27,22 @@ ii. Compatible with other systems.
 > As an intermediary to connect data with other systems Messages can be sent to the destination database.
 
 
+
+</br>
+
+## 💭 Flow
+```
+CASE 1: user talking linebot
+
+User      ->  Linebot  ->  Dynamodb
+send msg      get msg      put msg  
+
+CASE 2: linebot talking user
+
+Dynamodb    ->  linebot   ->  User
+query data      Response      send data
+```
+
 </br>
 
 ## 🔬 In branch progress
