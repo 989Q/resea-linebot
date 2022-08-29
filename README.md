@@ -1,14 +1,42 @@
-## 🎃 Q1-RESEARCH-Linebot
-Researching . . . 🧪
+## 💞 References 
+Microsoft Bot Framework V3 connector for Line office account 🧭 [**Wolke/botbuilder-linebot-connector**](https://github.com/Wolke/botbuilder-linebot-connector)
 
-## 🎃 Detail
-```
-🔴 work-01 
--> serverless can't show log when error
+SDK for the LINE Messaging API for Node.js 🧭 [**boybundit/linebot**](https://github.com/boybundit/linebot)
 
-🟢 work-02-ngrok 
--> success , example to work-03
 
-🟡 work-03-ngrok 
--> doing
-```
+
+</br>
+
+## 📑 Document
+
+Please refer to the official API documents for details.
+- Developer Documents - https://developers.line.me/messaging-api/overview
+- API Reference - https://devdocs.line.me/en/#messaging-api
+- Messaging API SDKs - https://developers.line.biz/en/docs/messaging-api/line-bot-sdk/
+
+
+
+</br>
+
+## 🏵 Purpose of this project
+
+i. Can communicate and respond to users.
+> Data can be sent to the database and data is retrieved to the user.
+
+ii. Compatible with other systems.
+> As an intermediary to connect data with other systems Messages can be sent to the destination database.
+
+
+</br>
+
+## 🔬 In branch progress
+
+( err ) work-01   🧭 [**Github**](https://github.com/Wolke/botbuilder-linebot-connector)
+> serverless can't show log when error
+
+( done ) work-02-ngrok    🧭 [**Github**](https://github.com/Wolke/botbuilder-linebot-connector)
+> success , example to work-03
+
+( doing ) work-03-ngrok   🧭 [**Github**](https://github.com/Wolke/botbuilder-linebot-connector)
+> doing
+
