@@ -1,23 +1,3 @@
-## 💞 References 
-Microsoft Bot Framework V3 connector for Line office account 🧭 [**Wolke/botbuilder-linebot-connector**](https://github.com/Wolke/botbuilder-linebot-connector)
-
-SDK for the LINE Messaging API for Node.js 🧭 [**boybundit/linebot**](https://github.com/boybundit/linebot)
-
-
-
-</br>
-
-## 📑 Document
-
-Please refer to the official API documents for details.
-- Developer Documents - https://developers.line.me/messaging-api/overview
-- API Reference - https://devdocs.line.me/en/#messaging-api
-- Messaging API SDKs - https://developers.line.biz/en/docs/messaging-api/line-bot-sdk/
-
-
-
-</br>
-
 ## 🏵 Purpose of this project
 
 i. Can communicate and respond to users.
@@ -43,6 +23,15 @@ Dynamodb    ->  linebot   ->  User
 query data      Response      send data
 ```
 
+### Inspiration
+
+on web: </br>
+Be a LINE bot to record who +1! Group LINE Bot production teaching and sharing 🧭 [**jcshawn.com/addone-linebot/**](https://jcshawn.com/addone-linebot/)
+
+on github: </br>
+LINE 加一紀錄機器人（ PlusOne Bot ）🧭 [**jschang19/plusone-linebot**](https://github.com/jschang19/plusone-linebot)
+
+
 </br>
 
 ## 🔬 In branch progress
@@ -55,4 +44,26 @@ query data      Response      send data
 
 ( doing ) work-03-ngrok   🧭 [**Github**](https://github.com/Wolke/botbuilder-linebot-connector)
 > doing
+
+
+
+</br>
+
+## 📑 Document
+
+Please refer to the official API documents for details.
+- Developer Documents - https://developers.line.me/messaging-api/overview
+- API Reference - https://devdocs.line.me/en/#messaging-api
+- Messaging API SDKs - https://developers.line.biz/en/docs/messaging-api/line-bot-sdk/
+
+
+
+</br>
+
+## 💞 References 
+Microsoft Bot Framework V3 connector for Line office account 🧭 [**Wolke/botbuilder-linebot-connector**](https://github.com/Wolke/botbuilder-linebot-connector)
+
+SDK for the LINE Messaging API for Node.js 🧭 [**boybundit/linebot**](https://github.com/boybundit/linebot)
+
+
 
