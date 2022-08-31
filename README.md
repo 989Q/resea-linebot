@@ -25,11 +25,12 @@ query data      Response      send data
 
 ### Inspiration
 
-on web: </br>
-Be a LINE bot to record who +1! Group LINE Bot production teaching and sharing 🧭 [**jcshawn.com/addone-linebot/**](https://jcshawn.com/addone-linebot/)
+Sending messages 🧭 [**web - line**](https://developers.line.biz/en/docs/messaging-api/sending-messages/#send-narrowcast-message)
 
-on github: </br>
-LINE 加一紀錄機器人（ PlusOne Bot ）🧭 [**jschang19/plusone-linebot**](https://github.com/jschang19/plusone-linebot)
+Be a LINE bot to record who +1! Group LINE Bot production teaching and sharing 🧭 [**web - jcshawn.com/addone-linebot/**](https://jcshawn.com/addone-linebot/)
+
+LINE 加一紀錄機器人（ PlusOne Bot ）🧭 [**github - jschang19/plusone-linebot**](https://github.com/jschang19/plusone-linebot)
+
 
 
 </br>
