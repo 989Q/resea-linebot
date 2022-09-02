@@ -1,15 +1,13 @@
-const line = require("@line/bot-sdk");
+// express
 const express = require("express");
 const axios = require("axios").default;
+const app = express();
+// env
 const dotenv = require("dotenv");
 const env = dotenv.config().parsed;
-const app = express();
-
-// mock data api
-var cors = require('cors')
-const importData = require("../src/mockdata/mockdata.json")
-app.use(cors())
-
+console.log(env);
+// line
+const line = require("@line/bot-sdk");
 const lineConfig = {
     channelAccessToken: env.ACCESS_TOKEN,
     channelSecret: env.SECRET_TOKEN,
@@ -29,56 +27,6 @@ app.post("/webhook", line.middleware(lineConfig), async (req, res) => {
         res.status(500).end();
     }
 });
-
-// xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx
-
-// GET method route
-app.get('/webhook', async (req, res) => {
-    res.send("hi")
-    // try {
-    //     const events = req.body.events;
-    //     console.log("event 😵‍💫 ", events);
-    //     return events.length > 0
-    //         ? await events.map((item) => handleEvent(item))
-    //         : res.status(200).send("OK");
-    // } catch (error) {
-    //     res.status(500).end();
-    // }
-})
-
-// xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx
-
-// mock data api
-app.get('/mockdata', (req, res) => {
-    res.send(importData);
-})
-
-// xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx
-
-// const handleEvent = async (event) => {
-//     if (event.type !== 'message' || event.message.type !== 'text') {
-//         return null;
-//     }
-//     else if (event.type === 'message') {
-//         try {
-//             const { data } = await axios.get(
-//                 `https://jsonplaceholder.typicode.com/todos/${event.message.text}`
-//             ); //use data destructuring to get data from the promise object
-//             console.log("Data -> ", data);
-//             messageAll = [
-//                 { type: "text", text: "userId : " + data.userId },
-//                 { type: "text", text: "id : " + data.id },
-//                 { type: "text", text: "title : " + data.title },
-//                 { type: "text", text: "completed : " + data.completed },
-//             ];
-//             console.log("messageAll -> ", messageAll);
-
-//             return client.replyMessage(event.replyToken, messageAll);
-//         } catch (error) {
-//             console.log(error);
-//         }
-//     }
-// };
 
 const handleEvent = async (event) => {
     if (event.type !== 'message' || event.message.type !== 'text') {
@@ -273,20 +221,7 @@ app.listen(4000, () => {
 
 
 
-
-
-// 🧪 success
-// const handleEvent = async (event) => {
-//     if(event.type !== 'message' || event.message.type !== 'text'){
-//         return null;
-//     }
-//     else if (event.type === 'message'){
-//         return client.replyMessage(event.replyToken,{type:'text',text:'ง่วงนอน 🤤'})
-//     }
-// }
-
-
-// 🧪 example
+// -- EXAMPLE --
 // const handleEvent = async (event) => {
 //     if (event.type !== 'message' || event.message.type !== 'text') {
 //         return null;
