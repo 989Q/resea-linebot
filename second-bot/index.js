@@ -4,6 +4,8 @@ const axios = require('axios').default
 const dotenv = require('dotenv')
 
 const env = dotenv.config().parsed
+console.log(env);
+
 const app = express()
 
 const lineConfig = {
