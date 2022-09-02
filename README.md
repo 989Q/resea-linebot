@@ -37,14 +37,14 @@ LINE 加一紀錄機器人（ PlusOne Bot ）🧭 [**github - jschang19/plusone-
 
 ## 🔬 In branch progress
 
-( err ) work-01   🧭 [**Github**](https://github.com/Wolke/botbuilder-linebot-connector)
-> serverless can't show log when error  >>  empty 
+work-01 ( err, doing ) 🧭 [**Github**](https://github.com/Wolke/botbuilder-linebot-connector)
+> serverless can't show log when error >> empty >> doing
 
-( done ) work-02-ngrok    🧭 [**Github**](https://github.com/Wolke/botbuilder-linebot-connector)
+work-02-ngrok ( done ) 🧭 [**Github**](https://github.com/Wolke/botbuilder-linebot-connector)
 > success , example to work-03
 
-( doing ) work-03-ngrok   🧭 [**Github**](https://github.com/Wolke/botbuilder-linebot-connector)
-> doing
+work-03-ngrok ( done, doing ) 🧭 [**Github**](https://github.com/Wolke/botbuilder-linebot-connector)
+> accomplished something and doing someting
 
 
 
